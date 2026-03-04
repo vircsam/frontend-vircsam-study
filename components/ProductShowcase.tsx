@@ -15,17 +15,17 @@ type Product = {
 };
 
 const products: Product[] = [
-  {
-    id: 'staying',
-    name: 'Studier',
-    tagline: 'The planner that respects your time & study.',
-    description:
-      "Studier isn't just a calendar. It's a commitment engine that helps you block noise, prioritize deep work, and actually finish what you start.",
-    imageAlt: 'Studier App Interface',
-    features: ['Time blocking', 'Distraction shield', 'Context switching reducer'],
-    isRightAligned: false,
-    mockup: 'img2.png',
-  },
+  // {
+  //   id: 'staying',
+  //   name: 'Studier',
+  //   tagline: 'The planner that respects your time & study.',
+  //   description:
+  //     "Studier isn't just a calendar. It's a commitment engine that helps you block noise, prioritize deep work, and actually finish what you start.",
+  //   imageAlt: 'Studier App Interface',
+  //   features: ['Time blocking', 'Distraction shield', 'Context switching reducer'],
+  //   isRightAligned: false,
+  //   mockup: 'img2.png',
+  // },
   // {
   //   id: 'todo',
   //   name: 'Vircsam Todo',

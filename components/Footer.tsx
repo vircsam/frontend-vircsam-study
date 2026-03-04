@@ -18,6 +18,7 @@ export const Footer: React.FC = () => {
             </div>
             <p className="text-sm text-[#71717a]">
               We solve people's problems with software.
+              Contact: vircsamenterprises@gmail.com
             </p>
           </div>
           

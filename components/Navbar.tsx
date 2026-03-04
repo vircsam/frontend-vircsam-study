@@ -34,7 +34,7 @@ export const Navbar: React.FC = () => {
           <span className="text-xl font-semibold tracking-tight text-gray-900">Vircsam</span>
         </div>
 
-        {/* Desktop Nav */}
+        Desktop Nav
         <div className="hidden md:flex items-center gap-8">
           <a href="#products" className="text-sm text-gray-700 hover:text-gray-900 transition-colors">Products</a>
           <a href="#services" className="text-sm text-gray-700 hover:text-gray-900 transition-colors">Services</a>
@@ -51,10 +51,10 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-200 p-6 flex flex-col gap-6 shadow-md">
-          <a href="#products" onClick={() => setMobileMenuOpen(false)} className="text-base text-gray-700 hover:text-gray-900">Products</a>
-          <a href="#opensource" onClick={() => setMobileMenuOpen(false)} className="text-base text-gray-700 hover:text-gray-900">Open Source</a>
-        </div>
+        // <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-200 p-6 flex flex-col gap-6 shadow-md">
+        //   <a href="#products" onClick={() => setMobileMenuOpen(false)} className="text-base text-gray-700 hover:text-gray-900">Products</a>
+        //   <a href="#opensource" onClick={() => setMobileMenuOpen(false)} className="text-base text-gray-700 hover:text-gray-900">Open Source</a>
+        // </div>
       )}
     </nav>
   );

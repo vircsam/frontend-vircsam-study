@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
         <FadeIn delay={0}>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/30 border border-blue-200/50 mb-8 backdrop-blur-sm">
             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            <span className="text-xs font-medium text-gray-800 uppercase tracking-wider">Vircsam 2.0 is live</span>
+            <span className="text-xs font-medium text-gray-800 uppercase tracking-wider">Vircsam is live</span>
           </div>
         </FadeIn>
         

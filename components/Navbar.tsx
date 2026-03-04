@@ -49,13 +49,13 @@ export const Navbar: React.FC = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu
       {mobileMenuOpen && (
         // <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-200 p-6 flex flex-col gap-6 shadow-md">
         //   <a href="#products" onClick={() => setMobileMenuOpen(false)} className="text-base text-gray-700 hover:text-gray-900">Products</a>
         //   <a href="#opensource" onClick={() => setMobileMenuOpen(false)} className="text-base text-gray-700 hover:text-gray-900">Open Source</a>
         // </div>
-      )}
+      )} */}
     </nav>
   );
 };

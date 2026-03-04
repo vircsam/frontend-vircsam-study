@@ -32,9 +32,9 @@ export const Hero: React.FC = () => {
         {/* Headline */}
         <FadeIn delay={100}>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.1]">
-            Build better systems <br />
+            Solving with<br />
             <span className="italic font-serif text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-300 to-blue-200">
-              for calm work.
+              Software.
             </span>
           </h1>
         </FadeIn>
@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
         </FadeIn>
 
        
-        <FadeIn delay={300}>
+        {/* <FadeIn delay={300}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#products" className="group">
               <Button size="lg">
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
               Read the Manifesto
             </Button>
           </div>
-        </FadeIn>
+        </FadeIn> */}
 
 
         {/* Hero Mockup Image */}

@@ -17,18 +17,18 @@ export const Footer: React.FC = () => {
               <span className="font-semibold text-white">Vircsam</span>
             </div>
             <p className="text-sm text-[#71717a]">
-              Calm productivity for the modern mind.
+              We solve people's problems with software.
             </p>
           </div>
           
-          <div>
+          {/* <div>
             <h4 className="text-sm font-semibold text-white mb-4">Products</h4>
             <ul className="space-y-2 text-sm text-[#a1a1aa]">
               <li><a href="#" className="hover:text-white transition-colors">Studier</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Todo</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Dev</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* <div>
             <h4 className="text-sm font-semibold text-white mb-4">Company</h4>

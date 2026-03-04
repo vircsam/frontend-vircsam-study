@@ -54,13 +54,13 @@ export const ProductShowcase: React.FC = () => {
   return (
     <section id="products" className="py-24 md:py-32 bg-[#f0f8ff] space-y-24">
       {/* Section Heading */}
-      <div className="max-w-7xl mx-auto px-6 text-center">
+      {/* <div className="max-w-7xl mx-auto px-6 text-center">
         <FadeIn>
           <h2 className="text-4xl md:text-5xl font-serif italic font-bold text-blue-400 tracking-tight">
             Our Products
           </h2>
         </FadeIn>
-      </div>
+      </div> */}
 
       {products.map((product) => (
         <div key={product.id} className="max-w-7xl mx-auto px-6">

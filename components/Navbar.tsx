@@ -34,11 +34,11 @@ export const Navbar: React.FC = () => {
           <span className="text-xl font-semibold tracking-tight text-gray-900">Vircsam</span>
         </div>
 
-        Desktop Nav
+        {/* Desktop Nav
         <div className="hidden md:flex items-center gap-8">
           <a href="#products" className="text-sm text-gray-700 hover:text-gray-900 transition-colors">Products</a>
           <a href="#services" className="text-sm text-gray-700 hover:text-gray-900 transition-colors">Services</a>
-        </div>
+        </div> */}
 
         {/* Mobile Toggle */}
         <button 

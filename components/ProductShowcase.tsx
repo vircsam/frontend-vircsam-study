@@ -15,17 +15,17 @@ type Product = {
 };
 
 const products: Product[] = [
-  // {
-  //   id: 'staying',
-  //   name: 'Studier',
-  //   tagline: 'The planner that respects your time & study.',
-  //   description:
-  //     "Studier isn't just a calendar. It's a commitment engine that helps you block noise, prioritize deep work, and actually finish what you start.",
-  //   imageAlt: 'Studier App Interface',
-  //   features: ['Time blocking', 'Distraction shield', 'Context switching reducer'],
-  //   isRightAligned: false,
-  //   mockup: 'img2.png',
-  // },
+  {
+    id: 'staying',
+    name: 'Studier',
+    tagline: 'The planner that respects your time & study.',
+    description:
+      "Studier isn't just a calendar. It's a commitment engine that helps you block noise, prioritize deep work, and actually finish what you start.",
+    imageAlt: 'Studier App Interface',
+    features: ['Time blocking', 'Distraction shield', 'Context switching reducer'],
+    isRightAligned: false,
+    mockup: 'img2.png',
+  },
   // {
   //   id: 'todo',
   //   name: 'Vircsam Todo',
@@ -54,13 +54,13 @@ export const ProductShowcase: React.FC = () => {
   return (
     <section id="products" className="py-24 md:py-32 bg-[#f0f8ff] space-y-24">
       {/* Section Heading */}
-      {/* <div className="max-w-7xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6 text-center">
         <FadeIn>
           <h2 className="text-4xl md:text-5xl font-serif italic font-bold text-blue-400 tracking-tight">
             Our Products
           </h2>
         </FadeIn>
-      </div> */}
+      </div>
 
       {products.map((product) => (
         <div key={product.id} className="max-w-7xl mx-auto px-6">
@@ -101,9 +101,11 @@ export const ProductShowcase: React.FC = () => {
 
                 {/* CTA */}
                 <div className="pt-4 flex items-center gap-4">
+                <a href="https://studier.vircsam.com/">
                   <Button className="bg-blue-200 text-blue-900 hover:bg-blue-300">
-                    Coming Soon
+                    Try it Now
                   </Button>
+                </a>
 
                   {product.id === 'dev' && (
                     <a

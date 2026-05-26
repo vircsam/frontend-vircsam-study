@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
         </FadeIn>
 
        
-        {/* <FadeIn delay={300}>
+        <FadeIn delay={300}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#products" className="group">
               <Button size="lg">
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
               Read the Manifesto
             </Button>
           </div>
-        </FadeIn> */}
+        </FadeIn>
 
 
         {/* Hero Mockup Image */}
